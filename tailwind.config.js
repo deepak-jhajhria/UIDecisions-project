@@ -33,6 +33,9 @@ module.exports = {
           dark: "#000000",
         },
       },
+      fontSize: {
+        "custom-3xl": "38px",
+      },
       backgroundImages: {
         darklight: "linear-gradient(180deg,rgba(0,0,0,0)_0%,#000000_100%)"
       }

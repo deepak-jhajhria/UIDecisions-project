@@ -7,7 +7,9 @@ import steve from '../../assets/images/trusted/steve.png'
 import nicolle from '../../assets/images/trusted/nicolle.png'
 import girish from '../../assets/images/trusted/girish.png'
 import vytas from '../../assets/images/trusted/vytas.png'
-
+import orangeCard from '../../assets/images/made-sec/orange-card.png'
+import yellowCard from '../../assets/images/made-sec/yellow-card.png'
+import blueCard from '../../assets/images/made-sec/blue-card.png'
 export const trustedSecList = [
     { profilePhoto: hope, name: "Hope Brandes", role: "Visual Designer", description: "Hey Tom! Love your book - recently downloaded and read it. I'm a designer at IBM working on/with Carbon. Thanks for all you do for the community!", date: "Jul 5, 2023" },
     { profilePhoto: stuart, name: "Stuart Wilson", role: "Product Designer", description: "Just wanted to say thank you Tommy, your work has really helped me grow the past few years. Really appreciate it and cant wait to finish the book.", date: "Jul 5, 2023" },
@@ -25,4 +27,10 @@ export const makingDesignList = [
     { title: "The Eisenhower Design Matrix, your guide to balancing research and speed like a pro.", description: "The secret to balancing speed with quality is simpler than you think: it's all about the 80-20 rule, where the right 20% of your effort generates 80% of the impact." },
     { title: "Essential tips for collecting and evaluating the info that leads to sleek, simple designs.", description: "This UI design book is your guide to navigating the design process, empowering you to create exceptional designs whether working solo or leading a team." },
     { title: "Insider methods for understanding your market, competitors, and what your customers really want.", description: "With practical steps and a complementary Notion workspace, you're all set to make those tight deadlines your playground, not your prison." },
+]
+
+export const madeForSecList = [
+    { title: "Product Designers", description: "Master the 80-20 rule to amplify your designs, delivering high-impact results in a fraction of the time.", animateImage: orangeCard },
+    { title: "Solopreneurs", description: "Overcome resource limitations and make confident design decisions fast so your projects stay on track and on trend.", animateImage: yellowCard },
+    { title: "UI Developers", description: "Swiftly apply effective UI decisions and interaction patterns, enhancing user experience with every project.", animateImage: blueCard },
 ]
