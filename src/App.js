@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='bg-primary max-w-[1920px] mx-auto'>
       <MakingDesign />
-      <MadeFor />
+      {/* <MadeFor /> */}
       <Trusted />
     </div>
   );

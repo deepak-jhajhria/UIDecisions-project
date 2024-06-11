@@ -15,7 +15,7 @@ const MakingDesign = () => {
                                 <Description className="pt-7" description={item.description} />
                             </div>
                             <div className={`bg-transparent duration-300 group-hover:bg-black rounded-[13px] pt-[33px] border border-transparent pb-10 mt-[14px] px-5 sm:px-8 xl:px-11 ${index === 3 && "!pr-5"}`}>
-                                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white lg:!leading-[28.64px] max-h-[86px] overflow-scroll scroll-bar-hidden">{item.title}</h3>
+                                <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white lg:!leading-[28.64px]">{item.title}</h3>
                             </div>
                         </div>
                     ))}
