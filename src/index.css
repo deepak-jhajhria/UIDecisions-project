@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: SF UI Display;
+}
+
 @layer components {
   .made-sec-card {
-    @apply overflow-hidden bg-primary-lighter rounded-[30px] after:absolute  after:duration-700  after:rounded-3xl duration-500 after:w-0 after:h-0 hover:after:h-full hover:after:w-full
+    @apply overflow-hidden bg-primary-lighter rounded-[30px] after:absolute after:duration-700 after:rounded-3xl duration-500 after:w-0 after:h-0 hover:after:h-full hover:after:w-full
   }
 }
 
@@ -26,10 +30,21 @@
   font-weight: 600;
 }
 
-* {
-  font-family: SF UI Display;
-}
-
 .scroll-bar-hidden::-webkit-scrollbar {
   display: none;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+  background: #000;
 }
