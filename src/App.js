@@ -5,7 +5,7 @@ import Trusted from './components/Trusted';
 
 function App() {
   return (
-    <div className='bg-primary max-w-[1920px] mx-auto py-10'>
+    <div className='py-10 bg-primary'>
       <MakingDesign />
       <MadeFor />
       <Trusted />
