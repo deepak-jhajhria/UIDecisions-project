@@ -5,7 +5,7 @@ import { makingDesignList } from "./common/Helper"
 const MakingDesign = () => {
     return (
         <div className="sm:p-8 lg:p-10">
-            <div className="container max-w-[1130px] sm:border rounded-[36px] lg:rounded-[48px] border-primary-dark sm:p-8 lg:px-10 xl:px-[60px] lg:py-9">
+            <div className="container max-w-[1230px] sm:border rounded-[36px] lg:rounded-[48px] border-primary-dark sm:p-8 lg:px-10 xl:px-[60px] lg:py-9">
                 <Heading className="!px-0 pt-1 text-center sm:text-start" title="Making Design Decisions" />
                 <Description className="pt-1.5 max-sm:px-4 sm:pt-[11px] max-sm:text-center !text-secondary-light" description="How to design effective user interfaces at warp-speed." />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8 pt-9 sm:pt-[34px]">
