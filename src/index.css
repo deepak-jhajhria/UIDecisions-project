@@ -44,7 +44,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
   height: 4px;
   background: #000;
 }
