@@ -29,9 +29,9 @@ module.exports = {
         },
         tertiary: {
           DEFAULT: "#855AFF",
-          light: "#000000",
-          dark: "#000000",
         },
+        orange: "#FE6C4C",
+        yellow: "#F7C33D",
       },
       fontSize: {
         "custom-3xl": "38px",
