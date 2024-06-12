@@ -5,9 +5,9 @@ import Trusted from './components/Trusted';
 
 function App() {
   return (
-    <div className='bg-primary max-w-[1920px] mx-auto'>
+    <div className='bg-primary max-w-[1920px] mx-auto py-20'>
       <MakingDesign />
-      {/* <MadeFor /> */}
+      <MadeFor />
       <Trusted />
     </div>
   );

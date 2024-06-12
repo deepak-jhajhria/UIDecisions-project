@@ -4,9 +4,9 @@ import { makingDesignList } from "./common/Helper"
 
 const MakingDesign = () => {
     return (
-        <div className="p-6 sm:p-8 lg:p-10">
+        <div className="sm:p-8 lg:p-10">
             <div className="container max-w-[1130px] sm:border rounded-[36px] lg:rounded-[48px] border-primary-dark sm:p-8 lg:px-10 xl:px-[60px] lg:py-9">
-                <Heading className="pt-1" title="Making Design Decisions" />
+                <Heading className="pt-1 text-center sm:text-start" title="Making Design Decisions" />
                 <Description className="pt-[11px] text-secondary-light" description="How to design effective user interfaces at warp-speed." />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-[34px]">
                     {makingDesignList.map((item, index) => (
