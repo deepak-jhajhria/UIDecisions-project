@@ -16,7 +16,7 @@ const MadeFor = () => {
                                 <h4 className="text-2xl font-medium text-white lg:text-custom-3xl sm:text-3xl">{item.title}</h4>
                                 <Description className="mt-[30px]" description={item.description} />
                             </div>
-                            <img className={`absolute z-0 bottom-0 right-0 w-[30%] ${index === 0 && "top-0"}`} src={item.animateImage} alt="animateimage" />
+                            <img className={`absolute pointer-events-none z-0 bottom-0 right-0 w-[30%] ${index === 0 && "top-0"}`} src={item.animateImage} alt="animateimage" />
                         </div>
                     ))}
                 </div>
